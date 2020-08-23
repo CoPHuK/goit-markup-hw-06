@@ -192,12 +192,12 @@ header .container {
 }
 /* HEro */
 .hero {
+  max-width: 1600px;
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
   padding-left: 452px;
   padding-right: 452px;
-  max-width: 1600px;
-  height: 600px;
 
   background-repeat: no-repeat;
   background-image: linear-gradient(
@@ -210,6 +210,10 @@ header .container {
   margin-right: auto;
   text-align: center;
   background-color: var(--hero-bcg);
+}
+
+h1 {
+  width: 696px;
 }
 
 .hero-tittle {
