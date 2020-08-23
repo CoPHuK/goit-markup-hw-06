@@ -510,10 +510,13 @@ b {
 }
 footer span {
   display: inline-block;
-  margin-top: 20px;
+}
+footer .logo.link {
+  margin-right: 0px;
+  margin-bottom: 20px;
 }
 .link-footer.link {
-  display: block;
+  display: inline-block;
   margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
